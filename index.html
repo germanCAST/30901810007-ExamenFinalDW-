@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Para Registro de Usuarios</title>
+</head>
+<body>
+  <h1>Ingrese los datos correspondientes del paciente</h1>  
+    <div class="formulario">
+    <form action="/enviaF.php"  method="post" >
+        CUI: <input type="number" name="cui" required/><br/><br/>
+        Nombres: <input type="text" name="nombre_US" required /><br/><br/>
+        Apellidos: <input type="text" name="apell_US" required /><br/><br/>
+        Fecha de Nacimiento: <input type="text" name="fecha" required /><br/><br/>
+        Direccion: <input type="text" name="direct" required /><br/><br/>
+        Nombre de la madre: <input type="text" name="nombre_m" required /><br/><br/>
+        Nombre del papa: <input type="text" name="nombre_p" required /><br/><br/>
+        Correo: <input type="email" name="correo" required /><br/><br/>
+        <input type="submit"/><br/><br/>
+    </form>
+    </div>
+    <div class="formulario2">
+        <form action="/crud.php"  method="post" >
+            <input type="submit" value ="Editar Usuarios" /><br/><br/>
+        </form>
+        </div>
+
+
+ <footer>
+    <h1>German Castellanos - 3090_18_10007</h1>
+ </footer>   
+</body>
+</html>
